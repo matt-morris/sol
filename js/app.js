@@ -9,7 +9,7 @@ var sol = {
   ranks: [
     { name: 'ace', symbol: 'A' },
     { name: 'deuce', symbol: '2' },
-    { name: 'three', symbol: '3' },
+    { name: 'trey', symbol: '3' },
     { name: 'four', symbol: '4' },
     { name: 'five', symbol: '5' },
     { name: 'six', symbol: '6' },
