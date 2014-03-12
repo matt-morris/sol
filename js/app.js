@@ -64,7 +64,11 @@
       new Array(5),
       new Array(6),
       new Array(7)
-    ]
+    ],
+
+    stock: [],
+
+    waste: []
   };
 
   var deal = function() {
