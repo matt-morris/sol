@@ -48,6 +48,10 @@
     return shuffled;
   };
 
+  var rules = {
+    drawSize: 3
+  };
+
   var table = {
     foundation: {
       spades: [],
@@ -79,6 +83,8 @@
         table.tableau[j][i] = deck.pop();
       }
     }
+
+    table.stock = deck;
   };
 
   window.sol = {
@@ -88,6 +94,17 @@
 
     checkTable: function() {
       return table;
+    },
+
+    drawFromStock: function() {
+      if (table.stock.length === 0) return;
+
+      var n = rules.drawSize;
+      if (table.stock.length < n) n = table.stock.length;
+
+      for (var i = 0;i < n;i++) {
+        table.waste.push(table.stock.pop());
+      }
     }
   };
 
