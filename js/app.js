@@ -3,22 +3,22 @@
   var suits = [
     {
       name: 'spades',
-      icon: '♠',
+      icon: '&spades;',
       color: 'black'
     },
     {
       name: 'clubs',
-      icon: '♣',
+      icon: '&clubs;',
       color: 'black'
     },
     {
       name: 'hearts',
-      icon: '♥',
+      icon: '&hearts;',
       color: 'red'
     },
     {
       name: 'diamonds',
-      icon: '♦',
+      icon: '&diamonds;',
       color: 'red'
     }
   ];
