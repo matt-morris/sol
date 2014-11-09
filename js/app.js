@@ -92,19 +92,6 @@
     }
   };
 
-  var find = function(card) {
-    var value;
-    
-    // console.log('find('+card+')')
-    // for (var column in table.tableau) {
-    //   column.map(compare(column));
-    // }
-    // for (var pile in table.foundation) {
-    //   pile.map(compare(column));
-    // }
-    return value;
-  };
-
   var deal = function() {
     var deck = shuffle(buildDeck());
 
